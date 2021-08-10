@@ -1,0 +1,17 @@
+.TaskPlace {
+    width: 100%;
+    border-radius: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input {
+    width: 80%;
+    height: 60%;
+    border-radius: inherit;
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: lighter;
+    color: grey;
+}

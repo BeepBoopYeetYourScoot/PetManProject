@@ -1,0 +1,21 @@
+.WrapperBG {
+    background: url(../../bg.jpg) no-repeat bottom / cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "tasks map";
+}
+
+#tasks {
+    grid-area: tasks;
+}
+
+#map {
+    grid-area: map;
+}

@@ -1,0 +1,33 @@
+.TaskComponent {
+    background-color: darkcyan;
+    width: 97%;
+    height: 10%;
+
+    margin-bottom: 7px;
+    border-radius: 15px;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    border-radius: inherit;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "one one two"
+        "three three four";
+}
+
+#name {
+    grid-area: one;
+
+}
+#time {
+    grid-area: two;
+}
+#place {
+    grid-area: three;
+}
+#rating {
+    grid-area: four;
+}
